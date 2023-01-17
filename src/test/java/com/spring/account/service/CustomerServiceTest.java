@@ -25,7 +25,7 @@ public class CustomerServiceTest {
     public void setUp() {
         customerRepository = mock(CustomerRepository.class);
         converter = mock(CustomerDtoConverter.class);
-        service = new CustomerService(customerRepository,converter);
+        service = new CustomerService(customerRepository, converter);
     }
 
     @Test
